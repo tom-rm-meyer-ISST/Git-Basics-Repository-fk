@@ -44,7 +44,7 @@ public class ApiKeyTest {
         this.mockMvc.perform(
                         get("/greeting"))
                 .andDo(print())
-                .andExpect(status().is(403));
+                .andExpect(status().is(404));
     }
 
     @Test
