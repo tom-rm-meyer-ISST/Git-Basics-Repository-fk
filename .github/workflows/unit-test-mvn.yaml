@@ -27,7 +27,6 @@ on:
 
 jobs:
   unit-test:
-    if: github.repository_owner == 'Fraunhofer-ISST' # prevent running on forks
     runs-on: ubuntu-latest
     permissions:
       packages: write
